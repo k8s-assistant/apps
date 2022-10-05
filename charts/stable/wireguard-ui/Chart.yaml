@@ -1,0 +1,20 @@
+---
+apiVersion: v2
+appVersion: version-v0.0.1
+description: Wireguard UI an UI for configuring the Wireguard VPN server 
+name: wireguard-ui
+version: v0.3.7
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - grocy
+home: https://github.com/ngoduykhanh/wireguard-ui
+icon: https://user-images.githubusercontent.com/37958026/177041280-e3e7ca16-d4cf-4e95-9920-68af15e780dd.png
+sources:
+  - https://github.com/ngoduykhanh/wireguard-ui
+maintainers:
+  - name: rolfberkenbosch
+    email: rolf@berkenbosch.nl
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2

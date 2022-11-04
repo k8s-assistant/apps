@@ -1,0 +1,23 @@
+---
+apiVersion: v2
+appVersion: 4.6.1.0
+description: Owntone
+name: owntone
+version: 28.5
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - emby
+  - jellyfin
+  - plex
+home: https://github.com/owntone/owntone-server
+icon: https://owntone.github.io/owntone-server/assets/logo.svg
+sources:
+  - https://owntone.github.io/owntone-server/installation/
+  - https://github.com/owntone/owntone-server
+maintainers:
+  - name: Rolf Berkenbosch
+    email: rolf@berkenbosch.nl
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2

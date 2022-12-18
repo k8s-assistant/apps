@@ -55,3 +55,4 @@ persistence:
     enabled: false
     mountPath: /data
     accessMode: ReadWriteOnce	
+    size: 1Gi

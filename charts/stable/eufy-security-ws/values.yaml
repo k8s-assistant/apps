@@ -31,11 +31,12 @@ env:
 service:
   main:
     ports:
-      rtsp:
-        port: 8554
       http:
         port: 3000
-
+  rtsp:
+    ports:
+      http:
+        port: 8554
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.
   # @default -- See values.yaml

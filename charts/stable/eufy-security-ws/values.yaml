@@ -40,7 +40,7 @@ service:
       rtsp:
         enabled: true
         port: 8554
-        protocol: TCP
+        protocol: UDP
 
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.

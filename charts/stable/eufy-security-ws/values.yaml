@@ -31,12 +31,17 @@ env:
 service:
   main:
     ports:
+      # -- Configure Web interface + API port
+      # @default -- See values.yaml
       http:
         port: 3000
-  rtsp:
-    ports:
-      http:
+      # -- Configure rtsp port used for camera device
+      # @default -- See values.yaml
+      rtsp:
+        enabled: true
         port: 8554
+        protocol: TCP
+
 ingress:
   # -- Enable and configure ingress settings for the chart under this key.
   # @default -- See values.yaml

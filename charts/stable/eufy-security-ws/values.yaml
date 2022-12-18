@@ -31,6 +31,8 @@ env:
 service:
   main:
     ports:
+      rtsp:
+        port: 8554
       http:
         port: 3000
 

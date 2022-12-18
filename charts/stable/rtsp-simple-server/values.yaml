@@ -29,8 +29,10 @@ service:
     ports:
       # -- Configure Web interface + API port
       # @default -- See values.yaml
-      http:
-        port: 3000
+      rtsp2:
+        port: 1935
+        enabled: true
+        protocol: TCP
       # -- Configure rtsp port used for camera device
       # @default -- See values.yaml
       rtsp:

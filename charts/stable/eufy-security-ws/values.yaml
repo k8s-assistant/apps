@@ -54,3 +54,4 @@ persistence:
   data:
     enabled: false
     mountPath: /data
+    accessMode: ReadWriteOnce	

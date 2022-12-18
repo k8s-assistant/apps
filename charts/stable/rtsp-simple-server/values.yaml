@@ -29,7 +29,7 @@ service:
     ports:
       # -- Configure Web interface + API port
       # @default -- See values.yaml
-      rtsp2:
+      http:
         port: 1935
         enabled: true
         protocol: TCP

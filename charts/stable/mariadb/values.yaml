@@ -32,7 +32,7 @@ env:
 service:
   main:
     ports:
-      tcp:
+      http:
         port: 3306
         eanbled: true
         protocol: TCP
